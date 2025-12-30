@@ -2,6 +2,13 @@
 # Field-based, scan-oriented multi-dimensional sound visualiser
 # Core metaphor: a persistent energy field + a scanning plane
 # macOS / Apple Silicon compatible
+st.markdown("""
+<style>
+#MainMenu {visibility: hidden;}
+footer {visibility: hidden;}
+header {visibility: hidden;}
+</style>
+""", unsafe_allow_html=True)
 
 import streamlit as st
 import numpy as np
