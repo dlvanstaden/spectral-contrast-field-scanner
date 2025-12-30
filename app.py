@@ -2,6 +2,10 @@
 # Field-based, scan-oriented multi-dimensional sound visualiser
 # Core metaphor: a persistent energy field + a scanning plane
 # macOS / Apple Silicon compatible
+import os
+import streamlit as st
+
+PORT = int(os.environ.get("PORT", 8501))
 
 import streamlit as st
 import numpy as np
